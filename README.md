@@ -1,3 +1,2 @@
 # My Bash configuration for macOS:
-
-### .bash_profile
+* .bash_profile
