@@ -10,7 +10,6 @@ alias T="/usr/bin/telnet"
 alias CSV="/usr/bin/column -t -s ,"
 alias DS="date +%m-%d-%Y"
 alias NOW='_now=$(date +%H:%M:%S) ; echo " 🕓  ${_now}"'
-alias DEF="_ ; date ; _ ; echo 'cat /Users/alai/Documents/DEF.txt:' ; cat /Users/alai/Documents/DEF.txt ; _ ; ls -l /Users/alai/Documents/DEF.txt"
 # alias DFH='_ ; date "+  %m-%d-%Y%  [%H:%M:%S]%n" ; df -H | egrep -v "devfs|private|net|home"'
 alias DFH='_ ; date "+  %m-%d-%Y%  [%H:%M:%S]%n" ; df -H -l'
 
@@ -32,9 +31,6 @@ alias up="tr '[a-z]' '[A-Z]' | pbcopy ; echo '  👉 📋'"
 
 
 alias sb="open -a 'Sublime Text'"
-alias UN="open -a 'Sublime Text' ~/.backup/uname.txt"
-
-#alias BOOT="source $HOME/BOOT/BOOT"
 
 
 alias ..="cd ../.."
@@ -42,12 +38,3 @@ alias ...="cd ../../.."
 alias ....="cd ../../../.."
 alias .....="cd ../../../../.."
 alias ......="cd ../../../../../.."
-alias s1="cd /Volumes/Storage"
-alias s3="cd /Volumes/Storage3"
-alias cdx="cd ~/Codex"
-alias doc="cd ~/Documents"
-alias dw="cd ~/Downloads"
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias SC="cd ~/Scripts/"
-alias Notes="cd ~/Documents/📘"
